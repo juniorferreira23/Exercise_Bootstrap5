@@ -1,0 +1,145 @@
+/* Global */
+.title-dark{
+    border-bottom: 2px solid gray;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 2rem 0;
+}
+
+.title-light{
+    border-bottom: 2px solid rgb(219, 219, 219);
+    border-radius: 2px;
+    display: inline-block;
+    margin: 2rem 0;
+    color: white;
+}
+
+/* Navbar */
+#logo {
+    padding: 8px;
+    font-size: 2em;
+}
+
+#navbar_items{
+    flex-grow: 0;
+    text-align: center;
+}
+
+#navbar_items .nav-item .active{
+    border-bottom: 1px solid white;
+}
+
+#navbar_items .nav-link{
+    margin: 0 10px;
+}
+
+
+/* Slider */
+#slider .carousel-indicators [data-bs-target]{
+    background-color: black;
+}
+
+#slideIndicators, .carousel-item{
+    max-height: 70vh;
+}
+
+#slider .carousel-caption {
+    color: black;
+}
+
+#slider .carousel-caption h5 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#slider .carousel-caption p {
+    font-size: 1.5em;
+}
+
+#slider .carousel-control-next, .carousel-control-prev{
+    opacity: 1;
+    width: 20%;
+}
+
+#slider .bi-chevron-compact-left, #slider .bi-chevron-compact-right{
+    color: black;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+
+/* About Cards */
+#about {
+    text-align: center;
+}
+#about .card{
+    text-align: center;
+    border: none;
+    margin: 1.5rem auto;
+}
+
+#card-top{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    #about .card-body h5 {
+        font-size: 1.7rem;
+    }
+
+    #about .card-body p, #about .card-body a {
+        font-size: 1.2rem;
+    }
+}
+
+
+/* Product */
+#product{
+    text-align: center;
+    background-color: gray;
+    padding-bottom: 1rem;
+}
+
+#product .row {
+    margin-bottom: 4rem;
+}
+
+.img-gray{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+#product p {
+    color: rgb(49, 49, 49);
+}
+
+
+/* Contact */
+#contact {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+#contact .container {
+    max-width: 600px;
+}
+
+#contact .input-form {
+    text-align: initial;
+}
+
+.input-form-btn{
+    text-align: right;
+}
+
+
+/* Footer */
+.social-footer .social a i{
+    font-size: 2rem;
+    color: white;
+    margin: 0 1rem;
+}
